@@ -1,1 +1,1 @@
-# wepback_example_nngu
+# webpack_example_nngu

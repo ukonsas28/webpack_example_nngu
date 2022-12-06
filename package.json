@@ -1,0 +1,20 @@
+{
+  "name": "wepback_example_nngu",
+  "version": "1.0.0",
+  "description": "example for nngu course",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukonsas28/wepback_example_nngu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukonsas28/wepback_example_nngu/issues"
+  },
+  "homepage": "https://github.com/ukonsas28/wepback_example_nngu#readme"
+}
