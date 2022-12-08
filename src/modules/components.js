@@ -1,4 +1,5 @@
 import { createElement, updateUserList } from "../helpers/index.js";
+import img from "../img/web_logo.png";
 
 export const createPageWrapper = () => {
   const pageWrapper = createElement({
@@ -19,6 +20,10 @@ export const createPageHeader = () => {
     },
     {
       children: [
+        createElement({
+          elementName: "img",
+          src: img,
+        }),
         createElement({
           elementName: "h2",
           textContent: "PAGE HEADER",

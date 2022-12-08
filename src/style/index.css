@@ -37,6 +37,10 @@ body {
   color: var(--text-color);
 }
 
+.header img {
+  height: 60px;
+}
+
 .container {
   display: flex;
   flex-grow: 1;
