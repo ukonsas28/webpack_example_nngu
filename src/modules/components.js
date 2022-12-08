@@ -20,6 +20,11 @@ export const createPageHeader = () => {
     {
       children: [
         createElement({
+          elementName: "img",
+          src: "img/web_logo.png",
+          alt: "web_logo",
+        }),
+        createElement({
           elementName: "h2",
           textContent: "PAGE HEADER",
         }),
