@@ -45,6 +45,13 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
         type: process.env.MODE === "production" ? "asset" : "asset/resource",
       },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader",
+        },
+      },
     ],
   },
 };
