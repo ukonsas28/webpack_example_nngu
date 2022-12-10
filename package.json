@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "example for nngu course",
   "main": "index.js",
-
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ukonsas28/wepback_example_nngu/issues"
   },
-  "homepage": "https://github.com/ukonsas28/wepback_example_nngu#readme"
+  "homepage": "https://github.com/ukonsas28/wepback_example_nngu#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }
