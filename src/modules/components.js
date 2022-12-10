@@ -1,4 +1,5 @@
 import { createElement, updateUserList } from "../helpers/index.js";
+import imgLink from "../img/web_logo.png";
 
 export const createPageWrapper = () => {
   const pageWrapper = createElement({
@@ -21,7 +22,7 @@ export const createPageHeader = () => {
       children: [
         createElement({
           elementName: "img",
-          src: "img/web_logo.png",
+          src: imgLink,
           alt: "web_logo",
         }),
         createElement({
